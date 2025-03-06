@@ -1,0 +1,22 @@
+Package: xtrem
+Title: Package to locate extrema and remove noise in series
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Jeffery",
+           family = "Petit",
+           role = c("aut", "cre"),
+           email = "jeffery.petit@pm.me")
+Description: Package to locate extrema and remove noise in series.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports:
+    dplyr,
+    magrittr,
+    zoo,
+    futile.logger,
+    rlang
+Suggests: 
+    testthat (>= 2.1.0),
+    tidyverse,
+RoxygenNote: 7.0.2
